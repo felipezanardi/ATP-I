@@ -1,3 +1,5 @@
+/*Faça um programa que receba três valores inteiros e imprima a soma deles.*/
+
 #include <stdio.h>
 
 int main(){
