@@ -1,4 +1,4 @@
-/*Faça um programa para ler um número inteiro e imprimir o seu antecessor e o seu sucessor.*/
+/*FaÃ§a um programa para ler um nÃºmero inteiro e imprimir o seu antecessor e o seu sucessor.*/
 
 #include <stdio.h>
 
