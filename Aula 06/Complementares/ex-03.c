@@ -5,9 +5,9 @@ empréstimo. Se a prestação for maior que 20% do salário, o programa deverá 
 #include <stdio.h>
 int main(){
     float salario, prestacao;
-    printf("Digite o salario: ");
+    printf("Digite o salario: R$");
     scanf("%f",&salario);
-    printf("Digite o valor da prestacao: ");
+    printf("Digite o valor da prestacao: R$");
     scanf("%f",&prestacao);
 
     if(prestacao > salario * 0.2){
