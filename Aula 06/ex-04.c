@@ -1,4 +1,4 @@
-/*4) Fazer um programa para ler dois números e verificar se são iguais ou diferentes.*/
+/*Fazer um programa para ler dois números e verificar se são iguais ou diferentes.*/
 
 #include <stdio.h>
 int main(){
