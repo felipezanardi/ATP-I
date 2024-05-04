@@ -21,6 +21,6 @@ int main(){
     printf("\nMaior valor: %d\n"
            "Menor valor: %d\n"
            "Soma dos valores: %d\n"
-           "Media dos valores: %f\n", maior, menor, soma, (float)soma/5);
+           "Media dos valores: %f\n", maior, menor, soma, (float) soma/5);
     return 0;
 }
