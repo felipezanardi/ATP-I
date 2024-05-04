@@ -12,6 +12,5 @@ int main(){
         i++;
     }
     printf("\nMenor valor: %d\n", menor);
-
     return 0;
 }
