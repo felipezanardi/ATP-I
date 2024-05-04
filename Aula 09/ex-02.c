@@ -16,7 +16,7 @@ int main(){
         i++;
     }
     printf("\nSoma: %f\n"
-           "Media dos valores: %f\n", soma, soma/quant);
+           "Media: %f\n", soma, soma/quant);
 
     return 0;
 }
