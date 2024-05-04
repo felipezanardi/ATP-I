@@ -5,7 +5,7 @@ diante.*/
 #include <stdio.h>
 int main(){
     int num;
-    printf("Digite um numero entre 1 e 7: ");
+    printf("Digite um numero entre 1 e 12: ");
     scanf("%d",&num);
 
     switch(num){
