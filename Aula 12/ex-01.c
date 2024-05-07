@@ -3,7 +3,6 @@ digite um número negativo. Por fim, o programa tem que retornar o maior e o
 menor número lido.*/
 
 #include <stdio.h>
-
 int main(){
     int num, maior, menor;
     printf("Digite um numero (numero negativo = parar): ");
