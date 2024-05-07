@@ -5,7 +5,7 @@ leitura desses valores. Por fim, apresentar a soma e a média.*/
 
 int main(){
     int quant, i=0;
-    float valor, soma, maior, menor;
+    float valor, soma;
     printf("Quantidade de valores: ");
     scanf("%d",&quant);
     do{
@@ -14,7 +14,6 @@ int main(){
         soma = soma + valor;
         i++;
     }while(i < quant);
-
     printf("\nSoma: %f\n"
            "Media: %f\n", soma, soma/quant);
     return 0;
