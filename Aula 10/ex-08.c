@@ -1,4 +1,4 @@
-/*(Utilize o comando 'do while') Ler 5 valores do usuário e apresentar o maior valor, o menor valor, a
+/*(Utilize o comando 'for') Ler 5 valores do usuário e apresentar o maior valor, o menor valor, a
 soma e a média dos valores.*/
 
 #include <stdio.h>
