@@ -26,49 +26,43 @@ int main(){
             case 100:
                 printf("Quantidade do item %d: ",i);
                 scanf("%d",&quant);
-                stotal = quant * 10;
+                total = total + (stotal = quant * 10);
                 printf("Subtotal do item %d: R$%.2f\n", i, stotal);
-                total = total + stotal;
                 i++;
                 break;
             case 101:
                 printf("Quantidade do item %d: ",i);
                 scanf("%d",&quant);
-                stotal = quant * 12;
+                total = total + (stotal = quant * 12);
                 printf("Subtotal do item %d: R$%.2f\n", i, stotal);
-                total = total + stotal;
                 i++;
                 break;
             case 102:
                 printf("Quantidade do item %d: ",i);
                 scanf("%d",&quant);
-                stotal = quant * 15;
+                total = total + (stotal = quant * 15);
                 printf("Subtotal do item %d: R$%.2f\n", i, stotal);
-                total = total + stotal;
                 i++;
                 break;
             case 103:
                 printf("Quantidade do item %d: ",i);
                 scanf("%d",&quant);
-                stotal = quant * 11;
+                total = total + (stotal = quant * 11);
                 printf("Subtotal do item %d: R$%.2f\n", i, stotal);
-                total = total + stotal;
                 i++;
                 break;
             case 104:
                 printf("Quantidade do item %d: ",i);
                 scanf("%d",&quant);
-                stotal = quant * 15;
+                total = total + (stotal = quant * 15);
                 printf("Subtotal do item %d: R$%.2f\n", i, stotal);
-                total = total + stotal;
                 i++;
                 break;
             case 105:
                 printf("Quantidade do item %d: ",i);
                 scanf("%d",&quant);
-                stotal = quant * 3;
+                total = total + (stotal = quant * 3);
                 printf("Subtotal do item %d: R$%.2f\n", i, stotal);
-                total = total + stotal;
                 i++;
                 break;
             default:
