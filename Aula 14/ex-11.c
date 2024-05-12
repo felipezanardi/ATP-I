@@ -6,7 +6,6 @@ varíavel string (char []).
 #include <stdio.h>
 int main(){
     char str1[100], str2[100];
-    int check=0;
     printf("Digite algo: ");
     gets(str1);
 
