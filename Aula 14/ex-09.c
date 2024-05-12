@@ -7,7 +7,7 @@ caracteres da frase).
 int main(){
     char str[200];
     int cont=0;
-    printf("Digite uma palavra: ");
+    printf("Digite algo: ");
     gets(str);
 
     for(int i=0; str[i]!='\0'; i++){
