@@ -12,7 +12,6 @@ int main(){
     int tam, check=0;
     printf("Digite um numero (0-9999): ");
     gets(num);
-
     // contar algaritmos + verificação
     tam = strlen(num);
     if(tam > 4 || tam < 1){
@@ -29,7 +28,6 @@ int main(){
             strcat(tres, num);
             strcpy(num, tres);
         }
-
         // ler caracteres + printf
         printf("Por extenso: ");
         if(strcmp(num, "0000") == 0){
