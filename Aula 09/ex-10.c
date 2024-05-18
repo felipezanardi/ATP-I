@@ -31,6 +31,6 @@ int main(){
     }
     printf("Pessoas acima de 50 anos: %d\n"
            "Media de altura das pessoas com idade entre 10 e 20 anos: %.2fcm\n"
-           "Percentual de pessoas com peso inferior a 50 quilos: %.0f%%", quantv, somaa/quantj, ((float)quantp/pessoas)*100);
+           "Percentual de pessoas com peso inferior a 50 quilos: %.0f%%\n", quantv, somaa/quantj, ((float)quantp/pessoas)*100);
     return 0;
 }
