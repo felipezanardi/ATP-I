@@ -5,7 +5,7 @@ quantidade de caracteres da frase
 
 #include <stdio.h>
 #include <string.h>
-int tamanho(char a[200]){
+int tamanho(char a[]){
     return strlen(a);
 }
 
