@@ -7,7 +7,7 @@ de caracteres que devem ser considerados para a centralização.
 
 #include <stdio.h>
 #include <string.h>
-void centralizar(int a, char b[15]){
+void centralizar(int a, char b[]){
     for(int i=0; i<a; i++){
         printf(" ");
     }
