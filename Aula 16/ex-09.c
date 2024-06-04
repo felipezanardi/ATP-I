@@ -26,9 +26,8 @@ int main(){
     char str[200];
     printf("Digite uma frase: ");
     gets(str);
-
-    printf("Frase alterada: ");
     remover_espacos(str);
-    printf("%s\n", str);
+
+    printf("Frase alterada: %s\n", str);
     return 0;
 }
