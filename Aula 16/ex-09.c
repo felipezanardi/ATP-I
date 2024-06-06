@@ -6,7 +6,7 @@ palavras da string.
 
 #include <stdio.h>
 #include <string.h>
-char remover_espacos(char a[]){
+void remover_espacos(char a[]){
     for(int i=0; a[0] == ' '; i++){
         for(int m=0; m<strlen(a); m++){
             a[m] = a[m+1];
