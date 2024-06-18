@@ -5,6 +5,7 @@ void codificar(int k, char a[]){
         a[i] -= k;
     }
 }
+
 void descodificar(int k, char a[]){
     for(int i=0; i<strlen(a); i++){
         a[i] += k;
